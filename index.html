@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manteau en folie : Accueil</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <meta
+      name="description"
+      content="Boutique de vente de manteaux pour chats et chiens"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a href="#">Accueil</a>
+        </li>
+        <li>
+          <a href="#chiens">Chiens</a>
+        </li>
+        <li>
+          <a href="#chats">Chats</a>
+        </li>
+        <li>
+          <div>
+            <label aria-hidden="true" for="search">
+              <span class="material-icons">
+                search
+              </span>
+            </label>
+            <input
+              aria-label="Rechercher de manteau : "
+              id="search"
+              type="search"
+              placeholder="Exemple: Doudoune"
+            />
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <header>
+      <h1>Magasin de manteaux pour chiens et chats</h1>
+    </header>
+    <main>
+      <!-- Catalogue Chiens-->
+      <section aria-labelledby="chiens">
+        <h2 id="chiens">Catalogue chiens</h2>
+        <nav>
+          <ul>
+            <li>
+              <a rel="next" href="#">
+                Page Suivante
+
+                <span aria-hidden="true" class="material-icons">
+                  chevron_right
+                </span>
+              </a>
+            </li>
+            <li>
+              <a rel="prev" href="#">
+                <span aria-hidden="true" class="material-icons">
+                  chevron_left
+                </span>
+                Page Précédent
+              </a>
+            </li>
+            <li><a rel="prev" href="#">Page 2</a></li>
+            <li><a rel="prev" href="#">Page 3</a></li>
+            <li aria-hidden="true">...</li>
+            <li><a rel="prev" href="#">Page 10</a></li>
+          </ul>
+        </nav>
+        <div class="grid">
+          <article class="card">
+            <figure>
+              <img src="manteau_chien.png" alt="Article 1 : Doudoune bleu" />
+              <figcaption aria-hidden="true">Article 1</figcaption>
+            </figure>
+            <a class="secondary">Voir la fiche</a>
+            <button class="primary">Acheter</button>
+          </article>
+          <article class="card">
+            <figure>
+              <img
+                src="manteau2.png"
+                alt="Article 2 : Jogging rose et bleue avec capuche"
+              />
+              <figcaption aria-hidden="true">Article 2</figcaption>
+            </figure>
+            <button class="secondary">Voir la fiche</button>
+            <button class="primary">Acheter</button>
+          </article>
+          <article class="card">
+            <figure>
+              <img src="manteau3.png" alt="Article 3 : Doudoune bleu" />
+              <figcaption aria-hidden="true">Article 3</figcaption>
+            </figure>
+            <button class="secondary">Voir la fiche</button>
+            <button class="primary">Acheter</button>
+          </article>
+          <article class="card">
+            <figure>
+              <img
+                src="manteau2.png"
+                alt="Article 4 : Jogging rose et bleue avec capuche"
+              />
+              <figcaption aria-hidden="true">Article 4</figcaption>
+            </figure>
+            <button class="secondary">Voir la fiche</button>
+            <button class="primary">Acheter</button>
+          </article>
+        </div>
+        <nav>
+          <ul>
+            <li>
+              <a rel="next" href="#">
+                Page Suivante
+
+                <span aria-hidden="true" class="material-icons">
+                  chevron_right
+                </span>
+              </a>
+            </li>
+            <li>
+              <a rel="prev" href="#">
+                <span aria-hidden="true" class="material-icons">
+                  chevron_left
+                </span>
+                Page Précédent
+              </a>
+            </li>
+            <li><a href="#">Page 2</a></li>
+            <li><a href="#">Page 3</a></li>
+            <li aria-hidden="true">...</li>
+            <li>
+              <a href="#" aria-label="Dernière page : page 10">Page 10</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
+
+      <!-- Catalogue Chats-->
+      <section aria-labelledby="chats">
+        <h2 id="chats">Catalogue chats</h2>
+        <nav>
+          <ul>
+            <li>
+              <a rel="next" href="#">
+                Page Suivante
+                <span aria-hidden="true"> ></span>
+              </a>
+            </li>
+            <li>
+              <a rel="prev" href="#">
+                <span aria-hidden="true">< </span>
+                Page Précédent
+              </a>
+            </li>
+            <li><a rel="prev" href="#">Page 2</a></li>
+            <li><a rel="prev" href="#">Page 3</a></li>
+            <li>...</li>
+            <li><a rel="prev" href="#">Page 10</a></li>
+          </ul>
+        </nav>
+        <div class="grid">
+          <article class="card">
+            <figure>
+              <img src="chat1.png" alt="Article 1 : Doudoune bleu" />
+              <figcaption aria-hidden="true">Article 1</figcaption>
+            </figure>
+            <button class="secondary">Voir la fiche</button>
+            <button class="primary">Acheter</button>
+          </article>
+          <article class="card">
+            <figure>
+              <img
+                src="chat2.png"
+                alt="Article 2 : Jogging rose et bleue avec capuche"
+              />
+              <figcaption aria-hidden="true">Article 2</figcaption>
+            </figure>
+            <button class="secondary">Voir la fiche</button>
+            <button class="primary">Acheter</button>
+          </article>
+          <article class="card">
+            <figure>
+              <img src="chat3.png" alt="Article 3 : Doudoune bleu" />
+              <figcaption aria-hidden="true">Article 3</figcaption>
+            </figure>
+            <button class="secondary">Voir la fiche</button>
+            <button class="primary">Acheter</button>
+          </article>
+          <article class="card">
+            <figure>
+              <img
+                src="chat2.png"
+                alt="Article 4 : Jogging rose et bleue avec capuche"
+              />
+              <figcaption aria-hidden="true">Article 4</figcaption>
+            </figure>
+            <button class="secondary">Voir la fiche</button>
+            <button class="primary">Acheter</button>
+          </article>
+        </div>
+        <nav>
+          <ul>
+            <li>
+              <a rel="next" href="#">
+                Page Suivante
+                <span aria-hidden="true"> ></span>
+              </a>
+            </li>
+            <li>
+              <a rel="prev" href="#">
+                <span aria-hidden="true">< </span>
+                Page Précédent
+              </a>
+            </li>
+            <li><a rel="prev" href="#">Page 2</a></li>
+            <li><a rel="prev" href="#">Page 3</a></li>
+            <li>...</li>
+            <li><a rel="prev" href="#">Page 10</a></li>
+          </ul>
+        </nav>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
